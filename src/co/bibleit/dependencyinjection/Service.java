@@ -4,7 +4,7 @@ public interface Service {
     void write(String message);
 }
 
-public class ServiceA implements Service {
+class ServiceA implements Service {
 
     @Override
     public void write(String message){
@@ -12,7 +12,7 @@ public class ServiceA implements Service {
     }
 }
 
-public class Client {
+class Client {
     private Service myServie;
 
     // inject via constructor

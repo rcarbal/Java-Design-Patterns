@@ -1,25 +1,25 @@
 package co.bibleit.liskov;
 
-public class Vehicle {
+public abstract class Vehicle {
 
-    abstract int getSpeed();
-    abstract int getCubicCapacity();
+    abstract void getSpeed();
+    abstract void getCubicCapacity();
 
 }
 
-public class Car extends Vehicle {
-    int getSpeed() {}
-    int getCubicCapacity() {}
-    boolean sHatback() {}
+class Car extends Vehicle {
+    void getSpeed() {}
+    void getCubicCapacity() {}
+    void sHatback() {}
 }
 
-public class Bus extends Vehicle {
-    int getSpeed(){}
-    int getCubicCapacity(){}
-    String getEmergencyExitLocation(){}
+class Bus extends Vehicle {
+    void getSpeed(){}
+    void getCubicCapacity(){}
+    void getEmergencyExitLocation(){}
 }
 
-public class Main {
+class Main {
 
     public static void main(String[] args) { 
         Vehicle vehicle = new Bus();

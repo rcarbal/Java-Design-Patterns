@@ -13,7 +13,7 @@ public class Main {
 
 class PasswordReminder {
 
-    private int dbConnection;
+    private MySqlConnection dbConnection;
 
     public PasswordReminder(MySqlConnection dbconnection){
         this.dbConnection = dbconnection;

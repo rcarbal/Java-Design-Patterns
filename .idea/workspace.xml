@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/dependencyinjection/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/dependencyinjection/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/dependencyinversion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/dependencyinversion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/interfaceSegragation/RestaurantInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/interfaceSegragation/RestaurantInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/liskov/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/liskov/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/openclosed/OpenedClosedPrincipleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/openclosed/OpenedClosedPrincipleExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +35,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.bibleit.dependencyinversion" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -42,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.bibleit.facoryMethodChallenge.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.bibleit.facoryMethodChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.bibleit.factoryabstractcreator.Client" />
       <module name="DesignPatterns" />
@@ -97,9 +120,11 @@
       <item itemvalue="Application.Computer" />
       <item itemvalue="Application.Tester" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.Computer" />

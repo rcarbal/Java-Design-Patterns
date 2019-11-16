@@ -3,10 +3,6 @@ package co.bibleit.openclosed;
 public class OpenedClosedPrincipleExample {
 }
 
-public interface Shape {
-    public double calculateArea();
-}
-
 class Rectangle implements Shape{
     public double length;
     public double width;

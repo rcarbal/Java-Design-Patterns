@@ -8,4 +8,29 @@ public interface RestaurantInterface {
     public void payInPerson();
 }
 
-public class OnlineClientImpl implements RestaurantInterface {}
+class OnlineClientImpl implements RestaurantInterface {
+    @Override
+    public void acceptOnlineOrder() {
+
+    }
+
+    @Override
+    public void takeTelephoneOrder() {
+
+    }
+
+    @Override
+    public void payOnline() {
+
+    }
+
+    @Override
+    public void walkinCustomerOrder() {
+
+    }
+
+    @Override
+    public void payInPerson() {
+
+    }
+}
