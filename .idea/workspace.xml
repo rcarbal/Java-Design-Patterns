@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/DisplayModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Projector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/RealPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/Tester.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
