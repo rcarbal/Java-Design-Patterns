@@ -2,12 +2,18 @@ package co.bibleit.facoryMethodChallenge;
 
 public class Client {
 
-    public static void main(String[] args) {
-        // create a tiger and duck and call their eat method
-        Animal tiger = AnimalFactory.getAnimal("TIGER");
-        tiger.eat();
+    public static void main(String[] args) throws Exception{
+        System.out.println("*** this is a factory pattern demo \n");
+        AnimalFactoryInterface animalFactory = new ConcreteFactory();
 
-        Animal duck = AnimalFactory.getAnimal("DUCK");
-        duck.eat();
+        AnimalInterface duckType = animalFactory.getAnimalType("Duck");
+        duckType.eat();
+
+        AnimalInterface tigerType = animalFactory.getAnimalType("Tiger");
+        tigerType.eat();
+
+        AnimalInterface lionType = animalFactory.getAnimalType("Lion");
+        lionType.eat();
+
     }
 }

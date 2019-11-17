@@ -1,11 +1,11 @@
 package co.bibleit.facoryMethodChallenge;
 
-interface Animal {
+interface AnimalInterface {
 
     void eat();
 }
 
-class Tiger implements Animal{
+class Tiger implements AnimalInterface {
 
     @Override
     public void eat() {
@@ -13,7 +13,7 @@ class Tiger implements Animal{
     }
 }
 
-class Duck implements Animal {
+class Duck implements AnimalInterface {
 
     @Override
     public void eat() {
