@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/AnimalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/AnimalFactoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/Client.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +48,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.bibleit.abstractfactory.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.bibleit.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.bibleit.factoryabstractcreator.Client" />
       <module name="DesignPatterns" />
@@ -123,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.Computer" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
