@@ -5,11 +5,11 @@ import javax.swing.*;
 public class FactoryProducer {
 
     public static MovieFactoryInterface getFactory(String choice){
-        if (choice.equalsIgnoreCase("Comedy")){
-            return new ComedyMovieFactory();
+        if (choice.equalsIgnoreCase("HollywoodMovie")){
+            return new HollywoodMovieFactory();
         }
-        else if (choice.equalsIgnoreCase("Action")){
-            return new ActionMovieFactory();
+        else if (choice.equalsIgnoreCase("BollywoodMovie")){
+            return new BollywoodMovieFactory();
         }
 
         return null;

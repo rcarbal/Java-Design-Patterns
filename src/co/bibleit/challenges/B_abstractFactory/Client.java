@@ -2,25 +2,25 @@ package co.bibleit.challenges.B_abstractFactory;
 
 public class Client {
     public static void main(String[] args) {
-        MovieFactoryInterface actionMovies = FactoryProducer.getFactory("Action");
+        MovieFactoryInterface hollywoodMovieFactory = FactoryProducer.getFactory("HollywoodMovie");
 
         // Create a hollywood movie
-        HollywoodMoviesInterface hAction = actionMovies.getHollywoodMovie();
-        BollywoodMovieInterface bAction = actionMovies.getBollywoodMovie();
+        HollywoodMoviesInterface hAction = hollywoodMovieFactory.getHollywoodMovie("action");
+        HollywoodMoviesInterface hComedy = hollywoodMovieFactory.getHollywoodMovie("comedy");
 
         System.out.println("\nAction Movies are");
         System.out.println(hAction.getMovieString());
-        System.out.println(bAction.getMovieName());
+        System.out.println(hComedy.getMovieString());
 
         // comedy movies
-        MovieFactoryInterface comedyMovies = FactoryProducer.getFactory("Comedy");
+        MovieFactoryInterface bollywoodMovie = FactoryProducer.getFactory("BollywoodMovie");
 
         // Create a hollywood movie
-        HollywoodMoviesInterface hComedy = actionMovies.getHollywoodMovie();
-        BollywoodMovieInterface bComedy = actionMovies.getBollywoodMovie();
+        BollywoodMovieInterface bAction = bollywoodMovie.getBollywoodMovie("action");
+        BollywoodMovieInterface bComedy = bollywoodMovie.getBollywoodMovie("comedy");
 
         System.out.println("\nComedy Movies are");
-        System.out.println(hComedy.getMovieString());
+        System.out.println(bAction.getMovieName());
         System.out.println(bComedy.getMovieName());
     }
 

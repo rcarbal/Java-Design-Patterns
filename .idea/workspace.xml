@@ -3,36 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/DisplayModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/Projector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/ColorFacotry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/abstractfactory/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/RealPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/delegation/Tester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/dependencyinversion/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/dependencyinversion/PasswordReminder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/AnimalFactoryInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/AnimalInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/ConcreteFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/Duck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/facoryMethodChallenge/Tiger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/factoryabstractcreator/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/factoryabstractcreator/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/factoryabstractcreator/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/responsibility/Finance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/co/bibleit/responsibility/HRPromotions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/AnimalFactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/A_factoryMethod/AnimalFactoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/AnimalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/A_factoryMethod/AnimalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/bibleit/facoryMethodChallenge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/A_factoryMethod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/MovieFactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/challenges/B_abstractFactory/MovieFactoryInterface.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
