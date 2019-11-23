@@ -1,4 +1,4 @@
-package co.bibleit.facoryMethodChallenge;
+package co.bibleit.challenges.A_factoryMethod;
 
 public class Client {
 

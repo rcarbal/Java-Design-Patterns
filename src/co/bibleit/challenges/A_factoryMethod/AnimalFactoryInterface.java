@@ -1,6 +1,6 @@
-package co.bibleit.facoryMethodChallenge;
+package co.bibleit.challenges.A_factoryMethod;
 
-public abstract class AnimalFactoryInterface {
+public abstract class  AnimalFactoryInterface {
     public abstract AnimalInterface getAnimalType(String type) throws Exception;
 }
 
