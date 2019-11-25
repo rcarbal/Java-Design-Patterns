@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/singleton/C_double_check_block/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/singleton/C_double_check_block/Singleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/co/bibleit/singleton/C_double_check_block" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/co/bibleit/singleton/D_bill_pugh" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -33,6 +34,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\DesignPatterns\src\co\bibleit\singleton\D_bill_pugh" />
+      <recent name="D:\JavaProjects\DesignPatterns\src\co\bibleit\singleton\D_eager" />
       <recent name="D:\JavaProjects\DesignPatterns\src\co\bibleit\singleton\C_double_check_block" />
       <recent name="D:\JavaProjects\DesignPatterns\src\co\bibleit\singleton\B_synchronized" />
     </key>

@@ -1,10 +1,8 @@
 package co.bibleit.singleton.C_double_check_block;
 
 public class Singleton {
-
     /**
-     ISSUES WITH DOUBLE CHECK LOCKING
-     1. It does not work in Java 1.4 or earlier
+     This is the recommended
      */
 
     // 1. private reference to the one and only instance
