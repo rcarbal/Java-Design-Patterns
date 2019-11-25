@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3dcf81-78e9-411b-a4cd-5d5b6e291d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/singleton/lazy/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/singleton/A_lazy/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/bibleit/singleton/lazy/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/bibleit/singleton/A_lazy/TestSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +27,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/co/bibleit/singleton/B_synchronized" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\DesignPatterns\src\co\bibleit\singleton\B_synchronized" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="co.bibleit.dependencyinversion" />
     </key>
@@ -47,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSingleton">
+  <component name="RunManager" selected="Application.TestSingleton (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.bibleit.abstractfactory.Client" />
       <module name="DesignPatterns" />
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.bibleit.singleton.lazy.TestSingleton" />
+    <configuration name="TestSingleton (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.bibleit.singleton.B_synchronized.TestSingleton" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.bibleit.singleton.lazy.*" />
+          <option name="PATTERN" value="co.bibleit.singleton.B_synchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.bibleit.delegation.Tester" />
+    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.bibleit.singleton.A_lazy.TestSingleton" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.bibleit.delegation.*" />
+          <option name="PATTERN" value="co.bibleit.singleton.A_lazy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tester" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.TestSingleton" />
+      <item itemvalue="Application.TestSingleton (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSingleton (1)" />
         <item itemvalue="Application.TestSingleton" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>

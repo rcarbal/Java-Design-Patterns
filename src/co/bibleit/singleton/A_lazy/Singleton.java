@@ -1,4 +1,4 @@
-package co.bibleit.singleton.lazy;
+package co.bibleit.singleton.A_lazy;
 
 public class Singleton {
 

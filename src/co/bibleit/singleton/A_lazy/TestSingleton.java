@@ -1,4 +1,4 @@
-package co.bibleit.singleton.lazy;
+package co.bibleit.singleton.A_lazy;
 
 public class TestSingleton {
 
@@ -14,7 +14,7 @@ public class TestSingleton {
 
         It may not be a problem if the Singleton is completely statteless, no member variable.
 
-     It could be very difficult to find these problems. 
+     It could be very difficult to find these problems.
      * **/
 
     public static void main(String[] args) {
